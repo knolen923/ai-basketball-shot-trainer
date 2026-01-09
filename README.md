@@ -47,13 +47,16 @@ Statistics update in real time as shots are detected.
 - NumPy
 - Tkinter
 
-##  Installation
-```bash
-pip install -r requirements.txt
-
 ##  Notes and Limitations
 - Lighting conditions affect color-based ball detection
 - HSV thresholds may require tuning for different environments
 - Best results with a clear view of the shooter and the hoop
+
+
+##  Installation
+```bash
+pip install -r requirements.txt
+
+
 
 
