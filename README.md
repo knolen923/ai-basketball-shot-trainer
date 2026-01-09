@@ -47,6 +47,13 @@ Statistics update in real time as shots are detected.
 - NumPy
 - Tkinter
 
+## Tuning Tips
+- If the ball isn’t detected, adjust HSV thresholds in `aiTrainer.py`
+- Ensure consistent lighting and a clear consistent view of the hoop ROI
+- Camera resolution affects ROI size and contour detection; for best results, use a fixed resolution (640×480 or 1280×720)
+- If detection is unstable, verify the webcam resolution matches the expected input size
+
+
 ##  Notes and Limitations
 - Lighting conditions affect color-based ball detection
 - HSV thresholds may require tuning for different environments
@@ -56,6 +63,7 @@ Statistics update in real time as shots are detected.
 ##  Installation
 ```bash
 pip install -r requirements.txt
+
 
 
 
